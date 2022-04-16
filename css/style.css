@@ -6,20 +6,33 @@ Description:
     Initial Deisgn of the webpage
 Version:1.0
 */
+
 body
 {
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
 }
+/*Position*/
+.topleft
+{
+    position: absolute;
+    top:8px;
+    left:16px;
+}
+.topright
+{
+    position: absolute;
+    top:8px;
+    right:16px;
+}
+/*~~~~~~~*/
 
 .header
 {
     height: 85px;
     background-color: #ffffff;
 }
-.textbox1{float: left;}
-.textbox2{float: right;}
-
+/*navigation bar*/
 .topnav
 {
     overflow: hidden;
@@ -39,6 +52,8 @@ body
     background-color: #ddd;
     color:black;
 }
+/*~~~~~~~~~*/
+
 
 .content
 {
@@ -47,6 +62,24 @@ body
     height: 200px;
 }
 
+.textbox1{float: left;}
+.textbox2{float: right;}
+.textbox3{text-align: center;}
+
+/*column*/
+*{
+    box-sizing: border-box;
+}
+.box
+{
+    float:left;
+    padding: 15px;
+    background-color: #ddd;
+}
+.clearfix::after{content: "";clear: both;display: table;}
+.boxa{width: 25%;}
+.boxb{width: 75%;}
+/*~~~*/
 .footer
 {
     background-color: #f1f1f1;
