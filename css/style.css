@@ -9,26 +9,29 @@ Version:1.0
 
 body
 {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 5px;
     background-color: aliceblue;    
-    font-family:Arial, Helvetica, sans-serif;
-    
+    font-family:Arial, Helvetica, sans-serif;    
+}
+p.style-indent
+{
+    margin-left: 40px
 }
 /*Position*/
 .topleft
 {
     position: absolute;
     top:8px;
-    left:10%;
+    left:5%;
 }
 .topright
 {
     position: absolute;
     top:8px;
-    right:10%;
+    right:5%;
 }
 /*~~~~~~~*/
 
@@ -77,6 +80,13 @@ table
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
+}
+table.indent
+{
+    vertical-align: top;
+    border-collapse: collapse;
+    margin-left: 50px;
+    padding: 15px;
 }
 th,td{text-align: left;vertical-align: rop;}
 /*column*/
