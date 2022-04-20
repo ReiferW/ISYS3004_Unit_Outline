@@ -7,19 +7,19 @@ Search and refer to W3School's website layout template to initially complete the
 Version 1 (1.5H):
 Start to try to  convert the ISYS3004 Unit Outline to a SPA.
 
-    Encountered problem: 
+Encountered problem: 
       how to achieve left and right alignment in the header
-    Solution: 
+Solution: 
       I tried the float and position layouts of the elements, and try to use column layouts. Found that the position layout is more suitable, but there is still a problem, that is, when the page is too narrow, the elements will cover each other. No solution has been found so far.
 
 
 Version 2(2H):
 Modified some page layouts; Convert page 1 and 2 of the ISYS3004 Unit Outline to html.
 
-  Encountered problem:
+Encountered problem:
     Page 1 of Outline has a complex layout
-  Solution:
-    Try different kinds of CSS formats, find that <table> is the easiest way to achieve.
+Solution:
+    Try different kinds of CSS formats, find that table is the easiest way to achieve.
 
 
 Version 3(3H):
@@ -29,8 +29,8 @@ Modified some page layouts; Convert page 3-5 of the ISYS3004 Unit Outline to htm
     1.How to insert image from local folder
     2.How to convert Bullet/Numbering to html style
   Solution:
-    1. Use tag <img src="*file address*">
-    2. Use tag <ul> and <ol> which is easiert than use <table>
+    1. Use tag img src="*file address*"
+    2. Use tag ul and ol which is easiert than use table
   
 Version 3.1:
 Try to deploy the website live, find image and style file was not loaded. Move style.css file out of css folder sovle this problem, but did not find how to problem of image.
