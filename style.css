@@ -76,19 +76,28 @@ p.style-indent
 /*table*/
 table
 {
-    text-align: center;
     border-collapse: collapse;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
 }
-table.indent
-{
-    vertical-align: top;
+table.a
+{ 
     border-collapse: collapse;
-    margin-left: 50px;
-    padding: 15px;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-th,td{text-align: left;vertical-align: rop;}
+table.calendar
+{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td
+{
+    height: 50px;
+}
 /*column*/
 /*
 *{
@@ -106,6 +115,7 @@ th,td{text-align: left;vertical-align: rop;}
 /*~~~*/
 .footer
 {
+    text-align: center;
     background-color: #f1f1f1;
     padding: 10px;
 }
