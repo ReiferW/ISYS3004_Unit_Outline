@@ -52,6 +52,7 @@ Solve the problem about image can not loaded, File extension need to be same sho
 Version 4.2(0.5H):
 Implement page jumps by using navigation bar
 
+The homework is done by myself, and the problems encountered are solved by learning the tutorials of W3School and referring to the open source projects on the Internet
 
 Task of convert the ISYS3004 Unit Outline to a SPA has completed, totaly time spend: 12.5 hours.
 
