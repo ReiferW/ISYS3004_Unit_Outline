@@ -59,3 +59,8 @@ Javascript is not used in this task, so I will try to use Javascript to implemen
 
 Ruifu Wang
 Wednesday 17:40 20/04/2022
+
+
+Has Passed CSSValidation.
+Html Checker shows that still have 12 errors, 9 of them are 'The __ attribute on the __ element is obsolete. Use CSS instead.' ,but for my personal idea: if some simple attribute for table/td element must change to use CSS, there will be more complex than current format, so I did not change it. The rest 3 are 'Bad value ___ for attribute ___ on element ___: Illegal character in scheme data: space is not allowed. (3)' 
+I don't know how to solve it.
