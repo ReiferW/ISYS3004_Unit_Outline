@@ -8,9 +8,6 @@ Version:4.2
 
 body
 {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
     padding: 5px;
     background-color: aliceblue;    
     font-family:Arial, Helvetica, sans-serif;    
@@ -24,30 +21,33 @@ p.style-indent
 {
     position: absolute;
     top:8px;
-    left:5%;
+    left:10%;
 }
 .topright
 {
     position: absolute;
     top:8px;
-    right:5%;
+    right:5px;
 }
 /*~~~~~~~*/
 
 .header
 {
-    height: 85px;
+    height: 60px;
     background-color:aliceblue;
 }
 /*navigation bar*/
 .topnav
 {
+    position:fixed;
+    margin-top: 10px;
+    width: 10%;
     overflow: hidden;
     background: #333;
 }
 .topnav a
 {
-    float: left;
+    
     display: block;
     color: #7b7b7b;
     text-align: center;
@@ -64,6 +64,9 @@ p.style-indent
 
 .content
 {
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 0%;
     background-color: #ddd;
 }
 
