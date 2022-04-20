@@ -2,9 +2,8 @@
 Name: style.css
 Author: Ruifu Wang
 Description:
-    1.0 
-    Initial Deisgn of the webpage
-Version:1.0
+    layout of the webpage
+Version:4.2
 */
 
 body
@@ -66,13 +65,21 @@ p.style-indent
 .content
 {
     background-color: #ddd;
-/*    padding: 10px;
-    height: 200px;*/
 }
 
-.textbox1{float: left;}
-.textbox2{float: right;}
-.textbox3{text-align: center;}
+.textbox1
+{
+    float: left;
+}
+.textbox2
+{
+    float: right;
+}
+.textbox3
+{
+    text-align: center;
+}
+
 /*table*/
 table
 {
@@ -88,6 +95,13 @@ table.a
     margin-left: 5%;
     margin-right: 5%;
 }
+table.b
+{
+    border-collapse: collapse;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 table.calendar
 {
     text-align: center;
@@ -96,6 +110,7 @@ table.calendar
 }
 th,td
 {
+    width: 20px;
     height: 50px;
 }
 /*column*/
